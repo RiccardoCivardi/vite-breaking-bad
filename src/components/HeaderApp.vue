@@ -17,8 +17,8 @@ props:{
 <template>
 
   <header>
-    <img class="mx-5" src="/logo.png" alt="Breaking Bad Logo">
-    <h1 class="text-light display-4 d-inline-block">{{title}}</h1>
+    <img class="mx-3" src="/logo.png" alt="Breaking Bad Logo">
+    <h1 class="text-light display-1 d-inline-block">{{title}}</h1>
   </header>
   
 </template>
@@ -26,8 +26,13 @@ props:{
 
 <style land="scss" scoped>
 
+
+
 img{
   width: 150px;
+}
+h1 {
+  text-shadow: 0 0 10px lightgreen;
 }
 
 </style>

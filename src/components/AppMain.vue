@@ -43,7 +43,7 @@ export default {
 
       <p class="found text-light px-3 py-4 rounded-2 fs-5 mb-4">Found {{store.charactersList.length}} characters</p>
 
-      <div class="row row-cols-5">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
 
         <CharactersCard v-for="character in store.charactersList" :key="character.char_id" :character="character"/>
 
