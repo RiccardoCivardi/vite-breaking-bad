@@ -1,0 +1,18 @@
+@use './partials/variables' as *;
+
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@import 'node_modules/@fontsource/ubuntu/400.css';
+@import 'node_modules/@fontsource/ubuntu/500.css';
+@import 'node_modules/@fontsource/ubuntu/700.css';
+
+
+body { 
+  font-family: $main-font;
+  background-color: $primary-color; 
+}
+
+img {
+  max-width: 100%;
+}
+
